@@ -113,22 +113,13 @@ header {
 }
 
 .card-item img{
-    border-radius: 5px;
+     transition: transform 0.2s;
 }
 .card-item img:hover{
     border-radius: 5px;
-    animation: imageSize 0.3s ease-out 1;
-}
-@keyframes imageSize {
-    from{
-        width: 170px;
-        height: 200px;
-    }
-    to{
-        width: 180px;
-        height: 210px;
-    }
-}
+    transform: scale(1.5);
+  }
+
 footer {
   color: white;
   height: 12vh;
