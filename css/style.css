@@ -113,6 +113,7 @@ header {
 }
 
 .card-item img{
+  border-radius: 3px
      transition: transform 0.2s;
 }
 .card-item img:hover{
